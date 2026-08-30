@@ -1,0 +1,12 @@
+{
+  "name": "bookmarklet-receiver",
+  "version": "2.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bs58": "^5.0.0",
+    "ethers": "^6.13.1",
+    "tweetnacl": "^1.0.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": { "memory": 512 }
+  },
+  "rewrites": [
+    { "source": "/data/:slug", "destination": "/api/data/[slug]?slug=:slug" },
+    { "source": "/bot/webhook", "destination": "/api/bot/webhook" },
+    { "source": "/", "destination": "/api" }
+  ]
+}
